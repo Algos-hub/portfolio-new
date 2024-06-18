@@ -1,38 +1,41 @@
 .navBar {
-  background-color: var(--primary-light);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
+    background-color: var(--primary-light-2);
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
 }
 
 .list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
 }
 
 .listItem {
-  float: left;
-  height: 100%;
+    float: left;
+    height: 100%;
 }
 
 .link {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  font-size: 20px;
-  padding: 16px;
-  text-decoration: none;
-  height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 16px;
+    text-decoration: none;
+    height: 100%;
 }
 
 .listItem .link:hover {
-  background-color: var(--primary-accent);
+    background-color: var(--primary-accent);
 }
 
 div .link {
-  color: var(--foreground-accent);
+    color: var(--foreground-accent);
 }
