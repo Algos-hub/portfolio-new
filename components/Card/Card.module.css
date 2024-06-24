@@ -2,12 +2,24 @@
     background-color: var(--primary-light-3);
     border-radius: 15px;
     width: calc(100%);
-    height: 200px;
+    height: fit-content;
     padding: 40px;
     padding-inline: 70px;
-    margin: 20px 0 20px;
+    margin-top: 40px;
+}
+
+.cardNoBackground {
+    background-color: transparent;
 }
 
 .title {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+}
+
+.content {
+    height: 100%;
+}
+
+.list {
+    margin-left: 15px;
 }
