@@ -22,3 +22,13 @@
     overflow: hidden;
     border-radius: 15px;
 }
+
+.list {
+    margin-left: 15px;
+    /* margin-bottom: 10px; */
+}
+
+.listItem {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
