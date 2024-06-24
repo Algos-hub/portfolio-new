@@ -2,9 +2,12 @@
     --primary: #0f172a;
     --primary-light-1: #141f38;
     --primary-light-2: #172340;
+    --primary-light-3: #29334a;
     --primary-accent: #121b31;
     --foreground: #f7f2ff;
     --foreground-accent: #caacfa;
+    --footer-height: 175px;
+    --navbar-height: 70px;
 }
 
 /* @media (prefers-color-scheme: dark) { */
@@ -23,6 +26,9 @@ body {
 body {
     color: var(--foreground);
     background: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 * {

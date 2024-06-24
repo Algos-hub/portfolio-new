@@ -1,4 +1,24 @@
 .page {
     display: flex;
     justify-content: center;
+    min-height: calc(100vh - var(--footer-height));
+}
+
+.introContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+}
+
+.introText {
+    margin: 20px;
+}
+
+.introImageContainer {
+    height: 260px;
+    width: 260px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
 }

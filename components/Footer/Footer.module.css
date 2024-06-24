@@ -1,0 +1,32 @@
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+.link {
+    color: var(--foreground-accent);
+    text-decoration: underline;
+}
+
+.footerSecond {
+    margin-top: 20px;
+}
+
+.iconList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 25%;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 25px;
+    margin: 10px;
+}
