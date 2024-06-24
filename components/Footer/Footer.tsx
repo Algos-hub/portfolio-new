@@ -12,7 +12,7 @@ export default function Footer() {
         <Link className={styles.link} href="https://unlicense.org/">
           Uncopyrighted
         </Link>{" "}
-        by Pedro Moraes. Last updated on June 18h, 2024.
+        by Pedro Moraes. Last updated on June 24th, 2024.
       </p>
       <p className={styles.footerSecond}>
         Built with{" "}
