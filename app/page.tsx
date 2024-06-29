@@ -1,17 +1,19 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import shared from "./shared.module.css";
 import { ReactNode } from "react";
 import Card from "@/components/Card/Card";
 
 export default function Home(): ReactNode {
   return (
     <>
-      <div className={styles.introContainer}>
-        <div className={styles.introText}>
-          <h1>Hello world</h1>
-          <p>Sample text</p>
+      <div className={shared.introContainer}>
+        <div className={shared.introText}>
+          <h1 className={shared.title}>Hello, I'm Pedro.</h1>
+          <p className={shared.paragraph}>Sample text</p>
+          <p className={shared.paragraph}>Sample text</p>
+          <p className={shared.paragraph}>Sample text</p>
         </div>
-        <div className={styles.introImageContainer}>
+        <div className={shared.introImageContainer}>
           <Image
             src="/face-logo.png"
             alt=""
@@ -30,22 +32,22 @@ export default function Home(): ReactNode {
         list
         largeTitle={false}
       >
-        <li className={styles.listItem}></li>
-        <li className={styles.listItem}></li>
-        <li className={styles.listItem}></li>
-        <li className={styles.listItem}></li>
+        <li className={shared.listItem}></li>
+        <li className={shared.listItem}></li>
+        <li className={shared.listItem}></li>
+        <li className={shared.listItem}></li>
       </Card>
       <Card title="Latest projects" background list largeTitle={false}>
-        <li className={styles.listItem}></li>
-        <li className={styles.listItem}></li>
-        <li className={styles.listItem}></li>
-        <li className={styles.listItem}></li>
+        <li className={shared.listItem}></li>
+        <li className={shared.listItem}></li>
+        <li className={shared.listItem}></li>
+        <li className={shared.listItem}></li>
       </Card>
       <Card title="Latest posts" background={false} list largeTitle={false}>
-        <li className={styles.listItem}></li>
-        <li className={styles.listItem}></li>
-        <li className={styles.listItem}></li>
-        <li className={styles.listItem}></li>
+        <li className={shared.listItem}></li>
+        <li className={shared.listItem}></li>
+        <li className={shared.listItem}></li>
+        <li className={shared.listItem}></li>
       </Card>
     </>
   );
