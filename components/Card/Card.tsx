@@ -9,18 +9,24 @@ export default function Card({
   title,
   list = false,
   background = true,
+  largeTitle = false,
   children,
 }: Readonly<{
   title: string;
   list: boolean;
   background: boolean;
+  largeTitle: boolean;
   children: React.ReactNode;
 }>): ReactNode {
   return (
     <div
       className={`${styles.card} ${!background ? styles.cardNoBackground : ""}`}
     >
-      <h2 className={styles.title}>{title}</h2>
+      {largeTitle ? (
+        <h1 className={styles.title}>{title}</h1>
+      ) : (
+        <h2 className={styles.title}>{title}</h2>
+      )}
       <div className={styles.content}>
         {list ? <List>{children}</List> : children}
       </div>
