@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Card from "@/components/Card/Card";
 
-export default function About() {
+export default function Contact() {
   return (
-    <div className={styles.page}>
-      <h1 className={styles.title}>Contact</h1>
-      <p>Hello butt</p>
-    </div>
+    <Card title="Contact" background={false} list={false} largeTitle>
+      Hello world
+    </Card>
   );
 }

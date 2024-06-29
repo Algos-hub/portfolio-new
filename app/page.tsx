@@ -24,19 +24,24 @@ export default function Home(): ReactNode {
           />
         </div>
       </div>
-      <Card title="Looking for something in particular?" background list>
+      <Card
+        title="Looking for something in particular?"
+        background
+        list
+        largeTitle={false}
+      >
         <li className={styles.listItem}></li>
         <li className={styles.listItem}></li>
         <li className={styles.listItem}></li>
         <li className={styles.listItem}></li>
       </Card>
-      <Card title="Latest projects" background list>
+      <Card title="Latest projects" background list largeTitle={false}>
         <li className={styles.listItem}></li>
         <li className={styles.listItem}></li>
         <li className={styles.listItem}></li>
         <li className={styles.listItem}></li>
       </Card>
-      <Card title="Latest posts" background={false} list>
+      <Card title="Latest posts" background={false} list largeTitle={false}>
         <li className={styles.listItem}></li>
         <li className={styles.listItem}></li>
         <li className={styles.listItem}></li>
